@@ -1,15 +1,45 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
-let a = 0
-console.log(a)
 export default function Page() {
   const pathname = usePathname()
-  console.log(a)
-  if (a == 0) {
-    a++
-    console.log('打印这么慢')
-  }
+  console.log(pathname, 666)
 
-  return <h1>Hello, About!</h1>
+  return (
+    <h1 className="w-10">
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+      Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About! Hello, About!Hello, About!Hello,
+      About!Hello, About!Hello, About!Hello, About!Hello, About!Hello, About!
+    </h1>
+  )
 }
