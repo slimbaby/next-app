@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // 确保这里设置了 baseUrl
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/lib/*": ["lib/*"]
+    }
+  }
+}
